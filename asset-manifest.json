@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-cyoa-game/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/react-cyoa-game/static/js/main.721ed195.chunk.js",
-    "main.js.map": "/react-cyoa-game/static/js/main.721ed195.chunk.js.map",
+    "main.js": "/react-cyoa-game/static/js/main.65a153ed.chunk.js",
+    "main.js.map": "/react-cyoa-game/static/js/main.65a153ed.chunk.js.map",
     "runtime-main.js": "/react-cyoa-game/static/js/runtime-main.1e9cd25b.js",
     "runtime-main.js.map": "/react-cyoa-game/static/js/runtime-main.1e9cd25b.js.map",
     "static/js/2.754df93d.chunk.js": "/react-cyoa-game/static/js/2.754df93d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1e9cd25b.js",
     "static/js/2.754df93d.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.721ed195.chunk.js"
+    "static/js/main.65a153ed.chunk.js"
   ]
 }
