@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-cyoa-game/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/react-cyoa-game/static/js/main.721ed195.chunk.js",
+    "main.js.map": "/react-cyoa-game/static/js/main.721ed195.chunk.js.map",
+    "runtime-main.js": "/react-cyoa-game/static/js/runtime-main.1e9cd25b.js",
+    "runtime-main.js.map": "/react-cyoa-game/static/js/runtime-main.1e9cd25b.js.map",
+    "static/js/2.754df93d.chunk.js": "/react-cyoa-game/static/js/2.754df93d.chunk.js",
+    "static/js/2.754df93d.chunk.js.map": "/react-cyoa-game/static/js/2.754df93d.chunk.js.map",
+    "static/js/3.68ad2242.chunk.js": "/react-cyoa-game/static/js/3.68ad2242.chunk.js",
+    "static/js/3.68ad2242.chunk.js.map": "/react-cyoa-game/static/js/3.68ad2242.chunk.js.map",
+    "index.html": "/react-cyoa-game/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/react-cyoa-game/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.754df93d.chunk.js.LICENSE.txt": "/react-cyoa-game/static/js/2.754df93d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e9cd25b.js",
+    "static/js/2.754df93d.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.721ed195.chunk.js"
+  ]
+}
