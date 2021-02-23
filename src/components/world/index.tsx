@@ -1,8 +1,8 @@
 import React from "react";
-import Map from "../map";
-import Player from "../player";
+import {Map} from "../map";
+import {Player} from "../player";
 
-export default function World () {
+export const World = () => {
     return (<div
             style={{
                 position: "relative",
@@ -14,4 +14,4 @@ export default function World () {
            <Player />
         </div>
     )
-}
+};

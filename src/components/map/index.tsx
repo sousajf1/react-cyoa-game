@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Map() {
+export const Map = () => {
     return <div
         style={{
             position:"absolute",
@@ -9,4 +9,4 @@ export default function Map() {
             backgroundColor: "#fff59d",
             border: "4px solid white",
         }}/>
-}
+};

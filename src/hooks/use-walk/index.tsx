@@ -2,7 +2,7 @@ import {useState} from "react";
 import {MAP_HEIGHT} from "../../config/constants";
 import {MAP_WIDTH} from "../../config/constants";
 
-export default function useWalk(maxSteps: number) {
+export const useWalk = (maxSteps: number) => {
     const [position, setPosition] = useState({x: 0, y: 0})
     const [dir, setDir] = useState(0)
     const [step, setStep] = useState(0)
@@ -55,4 +55,4 @@ export default function useWalk(maxSteps: number) {
     return{
         walk,dir, step, position
     }
-}
+};

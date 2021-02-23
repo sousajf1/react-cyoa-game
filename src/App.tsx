@@ -1,5 +1,5 @@
 import React from 'react';
-import World from "./components/world";
+import {World} from "./components/world";
 import './App.css';
 
 function App() {
