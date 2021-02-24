@@ -2,15 +2,17 @@ import React from "react";
 import './styles.css';
 
 
-interface Props1{
+interface TilesMatrix{
     tiles: number[][];
 }
-interface Props2{
+interface TilesArray{
     tiles: number[];
 }
-interface Props3{
+interface Tile{
     value: number;
 }
+
+
 
 export const getTileSprite = (value: number) => {
     switch (value as any){
@@ -23,7 +25,7 @@ export const getTileSprite = (value: number) => {
 
 
 
-export const MapTile: React.FC<Props3> =({value}) => {
+export const MapTile: React.FC<Tile> =({value}) => {
     const val = value;
     return <div className={`tile ${getTileSprite(val)}`}
     style={{
@@ -32,7 +34,7 @@ export const MapTile: React.FC<Props3> =({value}) => {
     }}/>
 }
 
-export const MapRow: React.FC<Props2> = ({tiles}) => {
+export const MapRow: React.FC<TilesArray> = ({tiles}) => {
     return <div className="row">
         {
             tiles.map(tile => <MapTile value={tile}/>)
@@ -40,7 +42,7 @@ export const MapRow: React.FC<Props2> = ({tiles}) => {
     </div>
 }
 
-export const Map: React.FC<Props1> = ({tiles}) => {
+export const Map: React.FC<TilesMatrix> = ({tiles}) => {
     return <div
         style={{
             position: "relative",
