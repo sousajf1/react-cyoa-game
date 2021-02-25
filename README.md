@@ -1,8 +1,17 @@
-# Getting Started with Create React App
+# Save the lambda
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)._
 
-## Available Scripts
+
+This plans to be a very small CYOA game in a Single Page Application with a RPG flavour to it (since it has a map and you can move around).
+
+Your mission is to save the lost lambda (```[](){}```) from the hands of the evil whatever.
+
+This game heavily inspired and started by following the tutorial in [this video](https://www.youtube.com/watch?v=DqpPgK13oEM&t=0s).
+
+
+
+## Development:
 
 In the project directory, you can run:
 
@@ -39,8 +48,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
