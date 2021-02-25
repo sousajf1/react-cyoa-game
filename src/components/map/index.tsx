@@ -20,16 +20,17 @@ export const getTileSprite = (value: number) => {
             return 'grass';
         case 1:
             return 'rock';
+        case 2:
+            return 'signpost';
     }
 }
 
 
 
 export const MapTile: React.FC<Tile> =({value}) => {
-    const val = value;
-    return <div className={`tile ${getTileSprite(val)}`}
+    return <div className={`tile ${getTileSprite(value)}`}
     style={{
-        height: "33px",
+        height: "28px",
         width: "32px",
     }}/>
 }

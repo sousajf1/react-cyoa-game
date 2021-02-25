@@ -8,9 +8,13 @@
 
 
 .rock {
-    background-image: url("/src/images/rock.png");
+    background-image: url("/src/images/boulder1.png");
 }
 
 .tree {
-    background-image: url("/src/images/tree.png");
+    background-image: url("/src/images/trees.png");
+}
+
+.signpost {
+    background-image: url("/src/images/signpost32px.png");
 }
