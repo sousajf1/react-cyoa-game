@@ -2,7 +2,7 @@ import React from 'react';
 import {World} from "./components/world";
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <World/>

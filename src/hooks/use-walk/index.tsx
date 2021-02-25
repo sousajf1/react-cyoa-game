@@ -21,7 +21,7 @@ export const useWalk = (maxSteps: number) => {
         "up": {x: 0, y: -stepSize},
     }
 
-    function walk(dir: string) {
+    const walk = (dir: string) => {
         console.dir();
         setDir(prev => {
             // @ts-ignore
@@ -32,7 +32,7 @@ export const useWalk = (maxSteps: number) => {
         setStep(prev =>prev < maxSteps - 1 ? prev + 1 : 0)
     }
 
-    function move(dir: string){
+    const move = (dir: string) => {
         setPosition(prev => {
             // @ts-ignore
             // @ts-ignore
